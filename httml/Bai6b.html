@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6b</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        div {
+            margin-top: 10px;
+            width: 710px;
+            height: 500px;
+            border: 2px solid rgb(205, 213, 255);
+        }
+        h1{
+            padding-bottom: 20px;
+        }
+        .fieldset1 {
+            width: 700px;
+            height: 268px;
+            margin-left: 2px;
+           
+        }
+       
+        .td1{
+            width: 72px;
+        }
+        td{
+            
+        }
+        .table1{
+            width: 500px;
+            margin-left: 0px;
+            font-size: 15.2px;
+        }
+        
+        #textarea1{
+            width: 350px;
+            height: 150px;
+            border: 1.5px solid rgb(88, 84, 84);
+
+        }
+        
+        #input1{
+            border: 1.5px solid rgb(88, 84, 84);
+        }
+
+        legend{
+            margin-left: 0;
+            
+        }
+
+        .fieldset2 {
+            width: 700px;
+            height: 100px;
+            margin-left: 2px;
+        }
+        .table2{
+            width: 610px;
+            margin-left: 0px;
+            font-size: 15.2px;
+            
+        }
+        .txttd{
+            width: 146px;
+        }
+        #txtgoogle{
+            width: 130px;
+        }
+        #txtin{
+            width: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Contach Us</h1>
+        <fieldset class="fieldset1">
+            <legend>Your message:</legend>
+            <table class="table1">
+                <tr>
+                    <td class="td1">To</td>
+                    <td><input type="text" name="" id="input1" value="Example Cafe"></td>
+                </tr>
+                <tr>
+                    <td>Your email</td>
+                    <td><input type="email" name="" id="input1"></td>
+                </tr>
+                <tr>
+                    <td>Message</td>
+                    <td><textarea name="" id="textarea1"></textarea ></td>
+                </tr>
+                <tr>
+                    <td>Attach File</td>
+                    <td><input type="file" name="" id=""></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset class="fieldset2">
+            <legend>How you found us:</legend>
+            <table class="table2">
+                <tr >
+                    <td class="txttd">How did you hear of us </td>
+                    <td><select name="" id="txtgoogle">
+                        <option value="">Google</option>
+                        <option value="">Youtube</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td >Newsletter</td>
+                    <td ><input type="checkbox" name="" id="txtin"> Ensure this box is checked if you would like to receive email updates</td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Send message">
+    </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai6a</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        
+        div{
+            width: 700px;
+            margin-top: 20px;
+            background-color: #99cdff;
+        }
+        img{
+            width: 200px;
+        }
+        #b1,#b2{
+            border-radius: 5px;
+        }
+        .ch1{
+            padding: 20px 0;
+        }
+        td{
+            
+        }
+        #td1{
+            margin-left: 51px;
+            width: 200px;
+        }
+        #td2{
+            margin-left: 51px;
+            width: 170px;
+        }
+        #td3{
+            margin-left: 51px;
+            width: 126px;
+        }
+        .on_top{
+            text-align: left;
+            vertical-align: top;
+        }
+        #td4{
+            margin-left: 51px;
+        }
+        #first{
+            width: 126px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="3" align="center">
+                    <img src="../IMGAES/anh_bai6a.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center" >
+                    <h2 class="ch1">Registrantion Form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center" >
+                    Register your Jackson Electronics product here
+                </td>
+            </tr>
+            <tr>
+                <td>Firs Name:</td>
+                <td align="right"><input type="text" name="txtf"  id="first"></td>
+                <td>Last Name:<input type="text" name="txtf" size="15"></td>
+            </tr>
+            <tr>
+                <td>Address #1:</td>
+                <td colspan="2"><input type="text" name="" id="td1"></td>
+            </tr>
+            <tr>
+                <td>Address #2:</td>
+                <td colspan="2"><input type="text" name="" id="td1"></td>
+                
+            </tr>
+            <tr>
+                <td>City</td>
+                <td colspan="2"><input type="text" name="" id="td2">
+                State: <input type="text" name="" id="" size="1px">
+                Zip: <input type="text" name="" id="" size="7px"></td>
+                
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td colspan="2"><input type="text" name="" id="td2" value="United States"></td>
+            </tr>
+            <tr>
+                <td  colspan="3"><hr></td>
+            </tr>
+            <tr>
+                <td>Product</td>
+                <td colspan="2">
+                    <select name="txtse" id="td3">
+                        <option value="">ScanMarter</option>
+                        <option value="">Nguyen</option>
+                        <option value="">Van</option>
+                        <option value="">Tai</option>
+
+                    </select>
+                </td>   
+            </tr>
+            <tr>
+                <td>Date Purchased:</td>
+                <td colspan="2"><input type="text" name="" id="td2"></td>
+            </tr>
+            <tr>
+                <td>Serial#:</td>
+                <td colspan="2"><input type="text" name="" id="td2"></td>
+            </tr>
+            <tr>
+                <td class="on_top">Used for:</td>
+                <td ><input type="radio" name="" id="td4">Home <br>
+                    <input type="radio" name="" id="td4">Business <br>
+                    <input type="radio" name="" id="td4">Govemment</td>
+                <td class="on_top"><input type="radio" name="" id="">Educational Institution <br>
+                    <input type="radio" name="" id="">Other</td>
+            </tr>
+            <tr>
+                <td class="on_top">System (check all that applay):</td>
+                <td><input type="checkbox" name="" id="td4">Windows <br>
+                <input type="checkbox" name="" id="td4">Macintosh</td>
+                <td><input type="checkbox" name="" id="">UNIX <br>
+                    <input type="checkbox" name="" id="">Other</td>
+            </tr>
+            <tr>
+                <td colspan="3"><hr> </td>
+            </tr>
+            <tr>
+                <td class="on_top">Comments?:</td>
+                <td colspan="2">
+                    <textarea name="txtara" id="td4" cols="50" rows="6"></textarea>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="3" align="center" >
+                    <input type="button" value="Click to register" id="b1" >
+                    <input type="reset" value="Click to cancel" id="b2">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
